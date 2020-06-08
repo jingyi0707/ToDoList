@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Zh-ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1855783_dcqkzsv2nmi.css">
+
+    <script src="./js/jQuery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <header class="clearfix">
+        <section>
+            <label for="input">ToDoList</label>
+            <input type="text" id="input" name="title" placeholder="添加ToDo" required="required" autocomplete="off" />
+        </section>
+    </header>
+    <section>
+        <div class="title">
+            <img src="./img/正在进行.png" alt="">
+            <span>正在进行</span>
+            <span id="todocount"></span>
+        </div>
+        <ul id="todolist" class="demo-box">
+
+
+        </ul>
+
+        <div class="title t2">
+            <img src="./img/已完成2.png" alt="">
+            <span>已经完成</span>
+            <span id="donecount"></span>
+        </div>
+        <ul id="donelist" class="demo-box">
+
+        </ul>
+    </section>
+    <footer>
+        Copyright &copy; 2020/6/1 2539123199@qq.com
+    </footer>
+</body>
+
+</html>
